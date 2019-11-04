@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintVertical_bias="0.309" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/register" />
 
     <ImageView
-        android:id="@+id/backBtn"
+        android:id="@+id/backBtn1"
         android:layout_width="70px"
         android:layout_height="60.5px"
         android:layout_marginStart="8dp"
@@ -55,8 +55,8 @@
         android:ems="10"
         android:fontFamily="@font/medium"
         android:hint="Name"
+        android:textColorHint="@color/black"
         android:inputType="textPersonName"
-        android:text="Name"
         android:textColor="@color/white"
         android:textCursorDrawable="@drawable/custom_color_cursor"
         android:textSize="35px"
@@ -77,7 +77,8 @@
         android:fontFamily="@font/medium"
         android:hint="Email Address"
         android:inputType="textPersonName"
-        android:text="Email Address"
+
+        android:textColorHint="@color/black"
         android:textColor="@color/white"
         android:textCursorDrawable="@drawable/custom_color_cursor"
         android:textSize="35px"
@@ -98,7 +99,7 @@
         android:hint="Phone Number"
         android:inputType="numberDecimal"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/black"
         android:textCursorDrawable="@drawable/custom_color_cursor"
         android:textSize="35px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,9 +117,10 @@
         android:ems="10"
         android:fontFamily="@font/medium"
         android:hint="Password"
+        android:textColor="@color/white"
         android:inputType="textPassword"
-        android:textColorHint="@color/white"
         android:textCursorDrawable="@drawable/custom_color_cursor"
+        android:textColorHint="@color/black"
         android:textSize="35px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,7 +138,8 @@
         android:fontFamily="@font/medium"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
         android:textCursorDrawable="@drawable/custom_color_cursor"
         android:textSize="35px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,7 +153,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/medium"
         android:text="By clicking Sign Up, you agree to our Terms and"
         android:textColor="@color/white"
@@ -176,5 +179,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="345px"
+        android:layout_height="113px"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bold"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="43px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
