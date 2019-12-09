@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "518827141551",
-    "firebase_url": "https://aparking-b4d52.firebaseio.com",
-    "project_id": "aparking-b4d52",
-    "storage_bucket": "aparking-b4d52.appspot.com"
+    "project_number": "309053823872",
+    "firebase_url": "https://aparking-be173.firebaseio.com",
+    "project_id": "aparking-be173",
+    "storage_bucket": "aparking-be173.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:518827141551:android:5fc28a2fda4dd44f2c275a",
+        "mobilesdk_app_id": "1:309053823872:android:463e02dc81f8e0c0bfbf65",
         "android_client_info": {
           "package_name": "com.example.parking"
         }
       },
       "oauth_client": [
         {
-          "client_id": "518827141551-6p8d56gj17kjbgna5ntm2gej0ui3ie6c.apps.googleusercontent.com",
+          "client_id": "309053823872-he1jdo4al12vspjj17kgm8j6ulq5qlsm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.parking",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "518827141551-ok15alah1om9a05gm4m4hpmcmsageel1.apps.googleusercontent.com",
+          "client_id": "309053823872-hhjr8dr76uuaatjgghvoleqbq8dqnvmi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCDnsuXx8QxMEbWTwBZtP-OOEhyuWn1QD0"
+          "current_key": "AIzaSyB-8eSxdRX0JT7KAisImG60iBdpFBvdpZs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "518827141551-ok15alah1om9a05gm4m4hpmcmsageel1.apps.googleusercontent.com",
+              "client_id": "309053823872-hhjr8dr76uuaatjgghvoleqbq8dqnvmi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

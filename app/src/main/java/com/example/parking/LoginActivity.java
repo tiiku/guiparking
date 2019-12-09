@@ -25,6 +25,11 @@ public class LoginActivity extends AppCompatActivity {
     ImageView backButton;
     TextView  textView;
 
+    private EditText Name;
+    private EditText Email;
+    private EditText Password;
+    private EditText Phone;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
