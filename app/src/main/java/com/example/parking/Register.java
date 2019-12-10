@@ -102,7 +102,7 @@ public class Register extends AppCompatActivity {
             result=true;
         }
         return result;
-        }
+    }
 
 
 }
